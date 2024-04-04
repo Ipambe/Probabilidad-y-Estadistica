@@ -1,0 +1,12 @@
+{
+  "compilerOptions": {
+    "target": "ES6",
+    "lib": ["ES2023", "DOM"],
+    "module": "commonjs",
+    "strict": true,
+    "esModuleInterop": true,
+    "outDir": "./compilado"
+  },
+  "include": ["./**/*.ts"],
+  "exclude": ["node_modules"]
+}
